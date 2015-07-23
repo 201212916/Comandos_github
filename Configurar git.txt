@@ -8,7 +8,7 @@ Crear una llave SSH
 
 6. escribir en terminal ssh-keygen (enter)
 7. pide lugar de donde se guarda la llave (enter)
-8. pide si se desea guardar una contraseña para la misma (enter)
+8. pide si se desea guardar una contraseÃ±a para la misma (enter)
 9. enter.
 
 Nos da una imagen random junto con el nombre y el lugar donde 
@@ -60,5 +60,7 @@ lugar donde se guarda la llave ssh c:Users/Pablito/.ssh/id_rsa.pub.
 
 direccion de cuenta 
 https://github.com/201212916
+
+Cambio hecho desde pagina de github
 
 
