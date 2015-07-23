@@ -1,0 +1,64 @@
+1. Crear cuenta en GitHub.com
+2. Descargar e instalar la version mas reciente de Git
+3. Abrir el programa de git y escribir lo siguiente en la consola
+4. git config --global user.name "nombre_propio" (enter)
+5. git config ..global user.email "direccion email" (enter)
+
+Crear una llave SSH
+
+6. escribir en terminal ssh-keygen (enter)
+7. pide lugar de donde se guarda la llave (enter)
+8. pide si se desea guardar una contraseña para la misma (enter)
+9. enter.
+
+Nos da una imagen random junto con el nombre y el lugar donde 
+se guardo dicho archivo.
+
+10. escribir en terminal cat ~/.ssh/nombre de archivo creado .pub
+para obtener la llave ssh
+11. copiar ese texto, e ir a la pagina de git hub y agregar nueva llave
+12. Pegar el texto y la pag empezara a reconocer la maquina.
+
+***********************************************
+Para crear un repositorio desde terminal
+git init
+
+Crear archivo Readme
+touch README
+
+Agregar archivo a github
+git add README o git add .
+
+Ver Estatus del repositorio actual
+git status 
+
+Enviar cambios a el repositorio actual
+git commit -m #Nombre para el cambio
+
+Conectar remoto de git a github
+git remote add origin #Direccion de repositorio en la Web
+
+Conectar git con github 
+git pull origin master //obtener cambios
+git push origin master //enviar cambios
+
+Para clonar un repositorio desde terminal
+git clone #direccion de repositorio dado por la pag de github
+esto debe de hacerce dentro de la carpeta donde se quiere guardar
+dicho repositorio
+
+Crear una rama (branch)
+git branch #nombre de la rama
+
+Cambiarse de rama 
+git checkout #nombre de la rama creada
+
+
+
+
+lugar donde se guarda la llave ssh c:Users/Pablito/.ssh/id_rsa.pub.
+
+direccion de cuenta 
+https://github.com/201212916
+
+
