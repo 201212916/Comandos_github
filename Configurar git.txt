@@ -4,7 +4,7 @@
 4. git config --global user.name "nombre_propio" (enter)
 5. git config --global user.email "direccion email" (enter)
 
-Crear una llave SSH
+Crear una llave SSH (si en dado caso el mismo github no lo crea al instalar el programa)
 
 6. escribir en terminal ssh-keygen (enter)
 7. pide lugar de donde se guarda la llave (enter)
