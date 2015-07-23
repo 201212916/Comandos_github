@@ -1,4 +1,4 @@
-1. Crear cuenta en GitHub.com
+﻿1. Crear cuenta en GitHub.com
 2. Descargar e instalar la version mas reciente de Git
 3. Abrir el programa de git y escribir lo siguiente en la consola
 4. git config --global user.name "nombre_propio" (enter)
@@ -20,25 +20,27 @@ para obtener la llave ssh
 12. Pegar el texto y la pag empezara a reconocer la maquina.
 
 ***********************************************
-Para crear un repositorio desde terminal
-git init
+1- Para crear un repositorio desde terminal o iniciar 
+git init (esto dentro de la carpeta de repositorio)
+
+2. Crear el repositorio en la web 
+
+3. Conectar remoto de git a github
+git remote add origin #Direccion de repositorio en la Web
 
 Crear archivo Readme
 touch README
 
-Agregar archivo a github
+4. Agregar archivo a github
 git add README o git add .
 
 Ver Estatus del repositorio actual
 git status 
 
-Enviar cambios a el repositorio actual
+5. Enviar cambios a el repositorio actual
 git commit -m #Nombre para el cambio
 
-Conectar remoto de git a github
-git remote add origin #Direccion de repositorio en la Web
-
-Conectar git con github 
+6. Conectar git con github 
 git pull origin master //obtener cambios
 git push origin master //enviar cambios
 
