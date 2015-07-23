@@ -2,7 +2,7 @@
 2. Descargar e instalar la version mas reciente de Git
 3. Abrir el programa de git y escribir lo siguiente en la consola
 4. git config --global user.name "nombre_propio" (enter)
-5. git config ..global user.email "direccion email" (enter)
+5. git config --global user.email "direccion email" (enter)
 
 Crear una llave SSH
 
