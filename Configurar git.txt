@@ -25,7 +25,8 @@ git init (esto dentro de la carpeta de repositorio)
 
 2. Crear el repositorio en la web 
 
-3. Conectar remoto de git a github
+3. Conectar remoto de git a github (esto solo si es primera vez que se conecta a la carpeeta de 
+repositorio que esta en la web) de lo contrario este paso se omite
 git remote add origin #Direccion de repositorio en la Web
 
 Crear archivo Readme
