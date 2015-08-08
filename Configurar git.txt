@@ -56,7 +56,8 @@ git branch #nombre de la rama
 Cambiarse de rama 
 git checkout #nombre de la rama creada
 
-
+realizar commit aun cuando se hayan eliminado archivos
+git add -u’ o ‘git commit -a’
 
 
 lugar donde se guarda la llave ssh c:Users/Pablito/.ssh/id_rsa.pub.
